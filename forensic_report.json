@@ -1,0 +1,74 @@
+[
+    {
+        "timestamp": "2026-03-29T12:59:57.628767",
+        "function": "request_secure_resource",
+        "exception_type": "ConnectionError",
+        "error_message": "HTTPConnectionPool(host='192.168.72.139', port=5000): Max retries exceeded with url: /api/data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77fd88896ab0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+        "context_snapshot": {
+            "self": "<requests.adapters.HTTPAdapter object at 0x77fd88895c70>",
+            "request": "<PreparedRequest [GET]>",
+            "stream": "False",
+            "timeout": "Timeout(connect=2, read=2, total=None)",
+            "verify": "True",
+            "cert": "None",
+            "proxies": "OrderedDict()",
+            "conn": "HTTPConnectionPool(host='192.168.72.139', port=5000)",
+            "url": "/api/data",
+            "chunked": "False"
+        }
+    },
+    {
+        "timestamp": "2026-03-29T12:59:58.633905",
+        "function": "request_secure_resource",
+        "exception_type": "ConnectionError",
+        "error_message": "HTTPConnectionPool(host='192.168.72.139', port=5000): Max retries exceeded with url: /api/data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77fd88897aa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+        "context_snapshot": {
+            "self": "<requests.adapters.HTTPAdapter object at 0x77fd888976b0>",
+            "request": "<PreparedRequest [GET]>",
+            "stream": "False",
+            "timeout": "Timeout(connect=2, read=2, total=None)",
+            "verify": "True",
+            "cert": "None",
+            "proxies": "OrderedDict()",
+            "conn": "HTTPConnectionPool(host='192.168.72.139', port=5000)",
+            "url": "/api/data",
+            "chunked": "False"
+        }
+    },
+    {
+        "timestamp": "2026-03-29T12:59:59.643093",
+        "function": "request_secure_resource",
+        "exception_type": "ConnectionError",
+        "error_message": "HTTPConnectionPool(host='192.168.72.139', port=5000): Max retries exceeded with url: /api/data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77fd888f0950>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+        "context_snapshot": {
+            "self": "<requests.adapters.HTTPAdapter object at 0x77fd888f0560>",
+            "request": "<PreparedRequest [GET]>",
+            "stream": "False",
+            "timeout": "Timeout(connect=2, read=2, total=None)",
+            "verify": "True",
+            "cert": "None",
+            "proxies": "OrderedDict()",
+            "conn": "HTTPConnectionPool(host='192.168.72.139', port=5000)",
+            "url": "/api/data",
+            "chunked": "False"
+        }
+    },
+    {
+        "timestamp": "2026-03-29T13:00:09.655756",
+        "function": "request_secure_resource",
+        "exception_type": "ConnectionError",
+        "error_message": "HTTPConnectionPool(host='192.168.72.139', port=5000): Max retries exceeded with url: /api/data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77fd88897080>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+        "context_snapshot": {
+            "self": "<requests.adapters.HTTPAdapter object at 0x77fd88897980>",
+            "request": "<PreparedRequest [GET]>",
+            "stream": "False",
+            "timeout": "Timeout(connect=2, read=2, total=None)",
+            "verify": "True",
+            "cert": "None",
+            "proxies": "OrderedDict()",
+            "conn": "HTTPConnectionPool(host='192.168.72.139', port=5000)",
+            "url": "/api/data",
+            "chunked": "False"
+        }
+    }
+]
